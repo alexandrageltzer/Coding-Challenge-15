@@ -15,7 +15,9 @@ function App() {
       </header>
       <main>
         <PersonalInfo />
-         <SkillsList /> 
+    
+        <SkillsList /> 
+    
         <div className="section">
           <h2>Experience</h2>
           <ExperienceEntry
@@ -23,9 +25,9 @@ function App() {
             company="Francesca's"
             duration="November 2023- Present"
           />
-      </main>
-    </div>
-  <div className="section">
+        </div>
+              
+        <div className="section">
           <h2>Education</h2>
           <EducationBackground
             institution="St. Petersburg College"
@@ -37,8 +39,11 @@ function App() {
             degree="Bachelors"
             years="2023-2025"
           />
-          
-        </div>
+           </div>
+              
+      </main>
+    </div>
+  
   );
 }
 
