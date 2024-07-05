@@ -1,0 +1,25 @@
+/* PersonalInfo.css */
+
+.personal-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.personal-info h2 {
+  color: #333;
+}
+
+.personal-info p {
+  color: #666;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
