@@ -7,9 +7,9 @@ import './ExperienceEntry.css';
 const ExperienceEntry = ({ title, company, duration }) => {
   return (
     <div className="experience-entry">
-      <h3>{Sales Associate}</h3>
-      <p>{Francesca's}</p>
-      <p>{November 2023-Present}</p>
+      <h3>{title}</h3>
+      <p>{company}</p>
+      <p>{duration}</p>
     </div>
   );
 }
