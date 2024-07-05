@@ -1,0 +1,17 @@
+
+.education-background {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-background h3 {
+  margin-bottom: 5px;
+}
+
+.education-background p {
+  color: #666;
+  font-size: 14px;
+}
