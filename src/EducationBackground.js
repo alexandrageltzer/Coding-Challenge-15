@@ -6,12 +6,9 @@ import './EducationBackground.css'; // Import your CSS file for styling
 const EducationBackground = ({ institution, degree, years }) => {
   return (
     <div className="education-background">
-      <h3>{St. Petersburg College}</h3>
-      <p>{Associates in Arts}</p>
-      <p>{2021-2023}</p>
-      <h3>{University of South Florida}</h3>
-      <p>{Bachelors}</p>
-      <p>{2023-2025}</p>
+      <h3>{institution}</h3>
+      <p>{degree}</p>
+      <p>{years}</p>
     </div>
   );
 }
