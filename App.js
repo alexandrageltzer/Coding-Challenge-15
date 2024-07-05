@@ -3,6 +3,7 @@
 import React from 'react';
 import './App.css';
 import PersonalInfo from './PersonalInfo';
+import SkillsList from './SkillsList'; 
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       </header>
       <main>
         <PersonalInfo />
-        {/* Add other sections/components here */}
+         <SkillsList /> 
+        
       </main>
     </div>
   );
