@@ -37,7 +37,7 @@ function App() {
             degree="Bachelors"
             years="2023-2025"
           />
-          {/* Add more EducationBackground components for each educational background */}
+          
         </div>
   );
 }
